@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "LXGWWenKaiTC";
+    src: url(./fonts/LXGWWenKaiTC-Regular.ttf);
+}
+@font-face {
+    font-family: "ChocolateClassicalSans";
+    src: url(./fonts/ChocolateClassicalSans-Regular.ttf);
+}
+
+body {
+    font-family: "LXGWWenKaiTC", "ChocolateClassicalSans";
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: rgb(255, 123, 0);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+}
+header nav a {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    text-decoration: none;
+}
+header nav a:hover {
+    background-color: bisque;
+    color: black;
+    text-decoration: underline
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#home {scroll-margin-top: 20vh}
+#home img {
+    margin-top: 4em;
+    border-radius: 50%;
+    width: 200px;
+    box-shadow:0px 0px 5px rgba(0,0,0,0.5);
+}
+
+#about {scroll-margin-top: 20vh}
+#about p {
+    text-align: justify;
+    margin: 0 6em;
+}
+
+#contact {scroll-margin-top: 20vh}
+#contact {
+    margin-top: 20px;
+}
+
+#skill {scroll-margin-top: 20vh}
+.containers {
+    display: flex;
+    width: 100%;
+}
+.skill, .liscense {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+}
+
+#autobiography {scroll-margin-top: 20vh}
+#autobiography h3 {
+    margin: 10px 20px;
+    text-align: justify;
+    text-indent: 1em;
+}
+#autobiography p {
+    margin: 0 20px;
+    text-align: justify;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
